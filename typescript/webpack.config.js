@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin")
+
 module.exports = {
     entry: {
         "app": "./main.ts"
@@ -9,5 +11,8 @@ module.exports = {
                 use: ["ts-loader"]
             }
         ]
-    }
+    },
+    plugins: [
+        new HtmlWebpackPlugin()
+    ]
 }
