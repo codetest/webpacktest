@@ -10,8 +10,6 @@ app.get('/', function(req, res) {
     </head>
     <body>
     <div id="app">${render()}</div>
-    <!--导入 Webpack 输出的用于浏览器端渲染的 JS 文件-->
-    <script src="./dist/bundle_browser.js"></script>
     </body>
     </html>
       `);
