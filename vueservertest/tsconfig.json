@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "rootDir": ".",
+        "outDir": "tsOut",
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise"
+        ],
+        "types": ["node"],
+        "typeRoots": ["./typings"]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
