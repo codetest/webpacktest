@@ -6,7 +6,7 @@
     import { Component } from "vue-property-decorator"
     import ImageComp from 'my-first-npm-code-test';
 
-    Vue.use(ImageComp)
+    Vue.component('ImageComp', ImageComp)
     @Component({name: "App", components: {ImageComp}})
     export default class App extends Vue{
         style: any = {"width": "200px", "height": "200px"}

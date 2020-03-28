@@ -26,7 +26,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "my-first-npm-code-test": "^1.0.3",
+    "my-first-npm-code-test": "^1.0.4",
     "vue": "^2.6.11",
     "vue-property-decorator": "^8.4.1"
   }
