@@ -9,7 +9,6 @@
     Vue.use(ImageComp)
     @Component({name: "App", components: {ImageComp}})
     export default class App extends Vue{
-        message: string = "Hello World"
         style: any = {"width": "200px", "height": "200px"}
         mounted() {
         }
