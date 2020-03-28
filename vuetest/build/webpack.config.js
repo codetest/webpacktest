@@ -7,7 +7,7 @@ module.exports = {
         "index": "./src/app.ts"
     },
     resolve: {
-        extensions: [".ts"]
+        extensions: [".ts", ".js"]
     },
     output: {
         filename: 'index.js',
@@ -56,5 +56,7 @@ module.exports = {
                 }
             }
         })]
-    }
+    },
+    mode: "development",
+    devtool: ""
 }

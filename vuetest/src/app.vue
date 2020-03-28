@@ -1,10 +1,13 @@
 <template>
-    <div>{{message}}</div>
+    <ImageComp source="https://b-ssl.duitang.com/uploads/item/201812/29/20181229232103_KQwZC.jpeg" :style-opt="style"></ImageComp>
 </template>
 <script lang="ts">
     import Vue from "vue"
     import { Component } from "vue-property-decorator"
-    @Component({name: "App"})
+    import ImageComp from 'my-first-npm-code-test';
+
+    Vue.use(ImageComp)
+    @Component({name: "App", components: {ImageComp}})
     export default class App extends Vue{
         message: string = "Hello World"
         style: any = {"width": "200px", "height": "200px"}
